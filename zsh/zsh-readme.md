@@ -37,12 +37,7 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/too
     ```zsh
     sed -i 's/^plugins=(\(.*\))/plugins=(\1 zsh-autosuggestions)/' ~/.zshrc
     ```
-3. Add keybindings:
-    - `Tab` - complete next word
-    - `Ctrl+Space` - accept suggestion
-   ```zsh
-   sed -i "s/\(# User configuration\)/\1\n\n# Zsh-autosuggestions\nbindkey '^I' forward-word\nbindkey '^@' autosuggest-accept/" ~/.zshrc
-   ```
+
 #### Add user aliases
 ```zsh
 echo "alias cll='clear; ll'" >> ${ZSH_CUSTOM}/aliases.zsh
