@@ -3,6 +3,8 @@
 #### Install [Z shell](https://en.wikipedia.org/wiki/Z_shell)
 ```bash
 sudo apt-get update && sudo apt-get install zsh
+// or
+sudo dnf install -y zsh
 ```
 #### Install [Oh My Zsh](https://ohmyz.sh/)
 ```bash
